@@ -1,16 +1,16 @@
-# FdF (wireframe viewer)
+# FdF (Wireframe Viewer)
 
-## 💡 About the project
+## 💡 About the Project
 
-Linux only.
-The FdF project provides a graphical representation of a landscape as a 3D object in which all surfaces are outlined in lines.
+**Linux only**
 
-## Some examples of the rendered 3D landscapes:
+The FdF project provides a graphical representation of a landscape as a 3D object, where all surfaces are outlined in lines.
+
+## Some Examples of the Rendered 3D Landscapes
 
 - <img src="https://github.com/redarling/FdF-42-macOS/blob/main/img2.png" alt="Screenshot 1" width="500"/>
 - <img src="https://github.com/redarling/FdF-42-macOS/blob/main/img1.png" alt="Screenshot 2" width="500"/>
 - <img src="https://github.com/redarling/FdF-42-macOS/blob/main/img3.png" alt="Screenshot 3" width="500"/>
-
 
 ## 🛠️ Installation Instructions
 
@@ -18,26 +18,33 @@ To get started with the FdF project, follow these steps:
 
 1. Clone the repository using the command:
 
-        git clone https://github.com/redarling/FdF-42-linux.git
+    ```bash
+    git clone https://github.com/redarling/FdF-42-linux.git
+    ```
 
 2. Navigate to the project directory:
 
-        cd FdF-42-linux
+    ```bash
+    cd FdF-42-linux
+    ```
 
 3. To build the project, execute the following command:
 
-        make
+    ```bash
+    make
+    ```
 
-After successful compilation, you can run the application by providing a valid map
+After successful compilation, you can run the application by providing a valid map.
 
-## Example command:
+## Example Command
 
-    ./fdf maps/elem-fract.fdf
+```bash
+./fdf maps/elem-fract.fdf
+```
 
 ## 🛠️ Features
 
--   3D Terrain Visualization: Represents landscapes as 3D object with
-  outlined surfaces by providing a file with terrain data when running the application.
+-   3D Terrain Visualization: Represents landscapes as 3D objects with outlined surfaces by using terrain data files provided when running the application.
 
 Example of the valid map:
 
